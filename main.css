@@ -1,32 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* layout  */
+
+.layout {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* blocks */
+
+
 .header {
     position: relative;
     height: 52px;
     line-height: 52px;
     vertical-align: middle;
+    color: white;
+    text-transform: uppercase;
 }
 
 .chapters {
     position: absolute;
-    right: 0; 
+    right: 0;
+}
+
+.chapter {
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+
+.chapter:hover {
+    background-color: rgba(255, 255, 255, .5);
+    transition: background-color 1000ms cubic-bezier(0.15, 0.47, 0.26, 1.01);
 }
 
 .background {
-    width: 100%;
+    position: absolute;
+    z-index: -99999;
+    top: 0;
+    right: 0;
+    width: 100vw;
     height: 550px;
     background-image: url(img1500.jpg);
     background-size: cover;
     background-position-y: center;
 }
 
+.info {
+    position: absolute;
+    top: 170px;
+    min-width: 500px;
+    width: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
 .ava {
+    display: block;
     height: 180px;
     width: 180px;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     border-radius: 50%;
-    position: absolute;
-    top: 170px;
+    margin: 0 auto; 
+}
+
+.names {
+    min-width: 300px;
+    width: 70%;
     margin: 0 auto;
-    left: 0;
-    right: 0;   
+    text-align: center;
 }
