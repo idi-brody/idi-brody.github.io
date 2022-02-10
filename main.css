@@ -73,4 +73,37 @@ body {
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    color: white;
+    font-weight: 600;
+    }
+
+.occ {
+    font-weight: 400;
+    }
+
+.CV {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.CV__Hire {
+    padding: .4em 1em;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #40a249;
+    border: 0;
+}
+
+.CV__CV {
+    padding: .4em 1em;
+    margin: 0 0 0 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #40a249;
+    border: 0;
+}
+.CV:hover {
+    
 }
