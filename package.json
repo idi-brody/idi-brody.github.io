@@ -1,0 +1,35 @@
+{
+  "name": "cv_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idi-brody/idi-brody.github.io.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Vlad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idi-brody/idi-brody.github.io/issues"
+  },
+  "homepage": "https://github.com/idi-brody/idi-brody.github.io#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "css-loader": "^6.7.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "htmlhint": "^1.1.4",
+    "mini-css-extract-plugin": "^2.6.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.7.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
